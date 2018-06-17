@@ -1,0 +1,307 @@
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, menu, nav, section, time, mark, audio, video, details, summary
+{
+	background: transparent;
+	border: 0;
+	font-size: 100%;
+	font-weight: normal;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+article, aside, figure, footer, header, nav, section, details, summary
+{
+	display: block;
+}
+html
+{
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after
+{
+	box-sizing: inherit;
+}
+img,
+object,
+embed
+{
+	max-width: 100%;
+}
+html
+{
+	overflow-y: scroll;
+}
+blockquote, q
+{
+	quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after
+{
+	content: '';
+	content: none;
+}
+a
+{
+	background: transparent;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	vertical-align: baseline;
+}
+del
+{
+	text-decoration: line-through;
+}
+abbr[title], dfn[title]
+{
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+table
+{
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+th
+{
+	font-weight: bold;
+	vertical-align: bottom;
+}
+td
+{
+	font-weight: normal;
+	vertical-align: top;
+}
+hr
+{
+	border: 0;
+	border-top: 1px solid #ccc;
+	display: block;
+	height: 1px;
+	margin: 1em 0;
+	padding: 0;
+}
+input, select
+{
+	vertical-align: middle;
+}
+pre
+{
+	white-space: pre;
+	white-space: pre-line;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+input[type="radio"]
+{
+	vertical-align: text-bottom;
+}
+input[type="checkbox"]
+{
+	vertical-align: bottom;
+}
+.ie7 input[type="checkbox"]
+{
+	vertical-align: baseline;
+}
+.ie6 input
+{
+	vertical-align: text-bottom;
+}
+select, input, textarea
+{
+	font: 99% sans-serif;
+}
+table
+{
+	font: 100%;
+	font-size: inherit;
+}
+small
+{
+	font-size: 85%;
+}
+strong
+{
+	font-weight: bold;
+}
+td, td img
+{
+	vertical-align: top;
+}
+sub, sup
+{
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+}
+sup
+{
+	top: -0.5em;
+}
+sub
+{
+	bottom: -0.25em;
+}
+pre, code, kbd, samp
+{
+	font-family: monospace, sans-serif;
+}
+.clickable,
+label,
+input[type=button],
+input[type=submit],
+input[type=file],
+button
+{
+	cursor: pointer;
+}
+button, input, select, textarea
+{
+	margin: 0;
+}
+button,
+input[type=button]
+{
+	overflow: visible;
+	width: auto;
+}
+.ie7 img
+{
+	ms-interpolation-mode: bicubic;
+}
+.clearfix:after, .clearfix:before
+{
+	clear: both;
+	content: "\0020";
+	display: block;
+	height: 0;
+	overflow: hidden;
+}
+body
+{
+	padding: 27px;
+}
+h1
+{
+	font-family: "Arial";
+	font-size: 36px;
+	font-weight: bold;
+}
+.section_1
+{
+	background: #C8E19D;
+	margin: 0 auto;
+	margin-bottom: 64px;
+	margin-top: 81px;
+	max-width: 960px;
+	padding: 20px;
+}
+h2, h3
+{
+	font-family: "Arial";
+	font-size: 28px;
+	font-weight: bold;
+	padding-bottom: 22px;
+}
+.section_2>div>div, .section_3_1>div, .section_3_2>div, .section_3_3>div, .section_4>div
+{
+	background: #C8E19D;
+	margin: 8px;
+	padding: 20px;
+}
+li
+{
+	margin-left: 47px;
+	padding-bottom: 12px;
+}
+.section_2_1>div:nth-child(1)
+{
+	float: left;
+	width: 202px;
+}
+.section_2_1>div:nth-child(2)
+{
+	margin-left: 220px;
+}
+.section_2_2>div:nth-child(1)
+{
+	float: right;
+	width: 202px;
+}
+.section_2_2>div:nth-child(2)
+{
+	margin-right: 220px;
+}
+.section_3_1, .section_3_2, .section_3_3
+{
+	margin-bottom: 20px;
+}
+.section_3_1>div:nth-child(1)
+{
+	float: right;
+	width: 202px;
+}
+.section_3_1>div:nth-child(2)
+{
+	float: left;
+	width: 222px;
+}
+.section_3_1>div:nth-child(3)
+{
+	margin-left: 237px;
+	margin-right: 215px;
+}
+.section_3_2>div:nth-child(1)
+{
+	float: left;
+	width: 202px;
+}
+.section_3_2>div:nth-child(2)
+{
+	float: right;
+	width: 222px;
+}
+.section_3_2>div:nth-child(3)
+{
+	margin-left: 215px;
+	margin-right: 237px;
+}
+.section_3_3>div:nth-child(1)
+{
+	float: right;
+	margin-left: 0;
+	width: 202px;
+}
+.section_3_3>div:nth-child(2)
+{
+	float: right;
+	width: 222px;
+}
+.section_3_3>div:nth-child(3)
+{
+	margin-right: 452px;
+}
+.section_4>div:first-child
+{
+	width: 220px;
+}
+.section_4>div:nth-child(3)
+{
+	width: 202px;
+}
+.section_4_conteiner .section_4
+{
+	border-collapse: separate;
+	border-spacing: 10px;
+	display: table;
+}
+.section_4_conteiner .section_4>div
+{
+	display: table-cell;
+	vertical-align: top;
+}
